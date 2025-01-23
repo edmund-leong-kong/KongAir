@@ -1,5 +1,6 @@
 plugins:
 - enabled: true
+  service: customer-information-service
   name: request-transformer-advanced
   config:
     add:
