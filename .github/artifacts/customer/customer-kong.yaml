@@ -44,10 +44,9 @@ plugins:
     add:
       body: []
       headers:
-      - X-Powered-By: Kong Konnect
+      - X-Powered-By:Kong Konnect
   enabled: true
   name: request-transformer-advanced
-  service: customer-information-service
 services:
 - host: kongair-customers-service.kongair.svc.cluster.local
   id: 690e812e-2873-566a-b02f-d03e0bf8ff69
