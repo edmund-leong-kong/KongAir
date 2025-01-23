@@ -1,9 +1,8 @@
 plugins:
 - enabled: true
-  service: customer-information-service
   name: request-transformer-advanced
   config:
     add:
       body: []
       headers:
-      - X-Powered-By: Kong Konnect
+      - X-Powered-By:Kong Konnect
